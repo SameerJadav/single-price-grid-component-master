@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+  --Light-Gray: #e5eff5;
+  --Grayish-Blue: #98a6bd;
+  --Cyan: #2ab2af;
+  --Light-Cyan: #6ddfdd;
+  --Bright-Yellow: #c0df34;
+  --Dark-Yello: #ebe02a;
+}
+
+/* BODY */
+body {
+  padding: 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: var(--Light-Gray);
+}
+
+/* CARD */
+.card {
+  width: 600px;
+  height: 425px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 7px 5px rgba(191, 191, 191, 1);
+}
+
+/* PADDING */
+.top-container,
+.bottom-left-container,
+.bottom-right-container {
+  padding: 30px;
+}
+
+/* TOP CONTAINER */
+.top-container {
+  width: 100%;
+  height: 45%;
+  background-color: white;
+}
+
+.top-container h2 {
+  margin-bottom: 20px;
+  color: var(--Cyan);
+}
+
+.top-container h4 {
+  margin-bottom: 15px;
+  color: var(--Bright-Yellow);
+}
+
+.top-container p {
+  color: var(--Grayish-Blue);
+}
+
+/* BOTTOM CONTAINER */
+.bottom-container {
+  display: flex;
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+/* BOTTOM LEFT CONTAINER */
+.bottom-left-container {
+  width: 50%;
+  height: 100%;
+  background-color: var(--Cyan);
+}
+
+.bottom-left-container h4 {
+  margin-bottom: 25px;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.price-frequency {
+  margin: 10px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.bottom-left-container p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.bottom-left-container button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 3px;
+  font-family: inherit;
+  border: none;
+  box-shadow: 0px 0px 10px 2px rgba(133, 133, 133, 1);
+  background-color: var(--Bright-Yellow);
+  color: white;
+}
+
+.bottom-left-container button:hover {
+  cursor: pointer;
+  background-color: var(--Dark-Yello);
+  transform: scale(1.03);
+}
+
+/* BOTTOM RIGHT CONTAINER */
+.bottom-right-container {
+  width: 50%;
+  height: 100%;
+  background-color: var(--Light-Cyan);
+}
+
+.bottom-right-container h4 {
+  margin-bottom: 25px;
+}
+
+.bottom-right-container ul {
+  list-style-type: none;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
